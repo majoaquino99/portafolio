@@ -1,6 +1,6 @@
 import React from 'react';
 import { 
-  BrowserRouter as Router,  
+  HashRouter as Router,  
   Route,
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -12,7 +12,6 @@ import Contact from './contents/Contact';
 
 function App() {
   return (
-    <div className="App">
      <Router>
             <Navbar></Navbar>
             <Route exact path = '/' component= {Home} /> 
@@ -21,8 +20,6 @@ function App() {
             <Route path = '/skills' component = {Skills} />	
             <Route path = '/contact' component = {Contact} />							
      </Router>
-     
-    </div>
   );
 }
 

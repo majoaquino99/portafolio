@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lora:400,500,700|Poppins:400,600,700i,800&display=swap');
+@media screen and (min-width: 769px) {
+.home {
+    font-family:  'Abril Fatface', cursive;
+    padding: 6em 1em 2em;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto 200px;
+    grid-gap: 5em;
+    margin: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.title {
+    font-size: 4rem;
+}
+}

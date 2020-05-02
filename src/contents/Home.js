@@ -1,18 +1,17 @@
 import React from 'react';
-// import ReactTypingEffect from 'react-typing-effect';
-import headerpicture from '../images/headerpicture.jpg';
+import ReactTypingEffect from 'react-typing-effect';
 import Social from '../components/Social';
+import styles from './styles/Home.module.css';
 
 const Home = () => {
     return(
-        <div className = 'Home'>
-           <h1>Majo Aquino</h1>
-           {/*  <ReactTypingEffect 
-             className="typingeffect"
-             text={['I´m Majo Aquino','I am a jr front-end developer']} 
-             speed={100} 
-             eraseDelay={700}/> */}
-            <img src = {headerpicture} alt='Home-background'></img>
+        <div className = {styles.home}>
+                <ReactTypingEffect 
+                    className= {styles.title}
+                    text={['I´m Majo Aquino','I am a jr front-end developer']} 
+                    speed={100} 
+                    eraseDelay={700}                             
+               />              
             <Social />
         </div>
     )
