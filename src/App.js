@@ -13,7 +13,6 @@ import Contact from './contents/Contact';
 function App() {
   return (
     <div className="App">
-     <h1>I'm Majo Aquino</h1>
      <Router>
             <Navbar></Navbar>
             <Route exact path = '/' component= {Home} /> 
