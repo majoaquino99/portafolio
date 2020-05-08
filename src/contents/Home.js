@@ -8,9 +8,9 @@ const Home = () => {
         <div className = {styles.home}>
                 <ReactTypingEffect 
                     className= {styles.title}
-                    text={['I´m Majo Aquino','I am a jr front-end developer']} 
+                    text={['Hello, I´m Majo Aquino','I am a jr front-end developer', 'welcome to my portafolio']} 
                     speed={100} 
-                    eraseDelay={700}                             
+                    eraseDelay={600}                             
                />              
             <Social />
         </div>

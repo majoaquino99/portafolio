@@ -8,6 +8,9 @@
   --dark-pink: #c0988a;
   --pale-yelloy: #efdb96;
   --dark-green: #2b4c44;
+  --lora: 'Lora', serif;
+  --abril-fatface: 'Abril Fatface', cursive;
+  --poppins: 'Poppins', sans-serif; 
 }
 
 body {

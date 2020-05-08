@@ -1,0 +1,43 @@
+.skills {
+    background-color: var(--dark-green);
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #f8f9f9;
+}
+
+.skillsList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.skills p {
+font-family: var(--lora);
+font-size: 1.25rem;
+text-align: left;
+margin-left: 16px;
+}
+
+.text {
+    text-align: center;
+    background-color: #f8f9f9;
+    width: 49.3%;
+    height: 5em;
+    color: rgba(39, 55, 70);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f3f0ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .techSkills {
+    padding: 1em;
+  }
+  
+  .softSkills {
+    padding: 1em;
+    padding-bottom: 4em;
+    background-color: var(--pale-pink);
+  }

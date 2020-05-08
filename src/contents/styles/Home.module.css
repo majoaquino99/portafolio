@@ -6,9 +6,8 @@
     color: #ffffff;
     display: grid;
     grid-template-columns: auto 200px;
-    grid-gap: 5em;
+    grid-gap: 5rem;
     margin: 16px;
-    flex-direction: column;
     align-items: center;
 }
   

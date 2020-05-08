@@ -1,0 +1,22 @@
+@media screen and (min-width: 769px) {
+    .contact{
+    font-family:  'Abril Fatface', cursive;
+    padding: 6em 1em 2em;
+    color: #ffffff;
+    align-items: center;    
+}
+    .info{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-gap: 5rem;
+        margin: 16px;
+
+    }
+    .contactDetails{
+        padding: 2em 6em;
+        align-items: center;  
+        font-size: 1.5rem;
+
+    }
+
+}

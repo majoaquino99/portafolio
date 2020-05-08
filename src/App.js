@@ -1,6 +1,6 @@
 import React from 'react';
 import { 
-  HashRouter as Router,  
+  BrowserRouter as Router,  
   Route,
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -14,6 +14,11 @@ function App() {
   return (
      <Router>
             <Navbar></Navbar>
+            <Home/>
+            <About/>
+            <Projects/>
+            <Skills/>
+            <Contact/>
             <Route exact path = '/' component= {Home} /> 
             <Route path = '/about' component= {About}/>
             <Route path = '/projects' component = {Projects} />	

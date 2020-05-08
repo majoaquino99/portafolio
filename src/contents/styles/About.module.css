@@ -1,2 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lora:400,500,700|Poppins:400,600,700i,800&display=swap');
+.about{
+    background: var(--pale-pink);
+    opacity: 0.98;
+    padding: 3em;
+    z-index: 2;
+}
+
+.about  p {   
+    font-family: var(--poppins);
+    font-size: 1.25rem;
+    color: #3d3649;
+    text-align: left;
+}
+.aboutContent{
+    padding: 0em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutImage{
+    width: 25em;
+    height: 30.68em;
+}
+.aboutText{
+    padding: 4em 0em 4em 6em;
+}
 
